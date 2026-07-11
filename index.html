@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مطعم دار المذاق</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="العودة إلى بداية الصفحة">
+      <span class="brand-mark">د</span>
+      <span>دار المذاق</span>
+    </a>
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <a href="#menu">القائمة</a>
+      <a href="#about">عن المطعم</a>
+      <a href="#booking">الحجز</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">مذاق شرقي بروح عصرية</p>
+        <h1>وجبة لا تُنسى، تُحضّر ببطء وتُقدّم بحب.</h1>
+        <p class="hero-text">في دار المذاق نجمع بين التوابل العربية الأصيلة، الخبز الطازج، والمكونات اليومية لنصنع تجربة دافئة تستحق الزيارة.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">استعرض القائمة</a>
+          <a class="btn ghost" href="#booking">احجز طاولة</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="طبق اليوم">
+        <div class="plate">
+          <span class="steam steam-one"></span>
+          <span class="steam steam-two"></span>
+          <span class="steam steam-three"></span>
+          <div class="dish"></div>
+        </div>
+        <div class="special">
+          <span>طبق اليوم</span>
+          <strong>مندي لحم فاخر</strong>
+          <small>مع أرز الزعفران وصلصة الدقوس</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="إحصائيات المطعم">
+      <article><strong>12+</strong><span>سنة خبرة</span></article>
+      <article><strong>35</strong><span>طبقًا مميزًا</span></article>
+      <article><strong>4.9</strong><span>تقييم الضيوف</span></article>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="section-heading">
+        <p class="eyebrow">أطباقنا المختارة</p>
+        <h2>قائمة صغيرة، نكهات كبيرة</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <span class="price">45 ر.س</span>
+          <h3>كبسة الدار</h3>
+          <p>دجاج متبّل بتوليفة بهارات خاصة مع أرز طويل الحبة ومكسرات محمصة.</p>
+        </article>
+        <article class="menu-item featured">
+          <span class="price">68 ر.س</span>
+          <h3>مشاوي السلطان</h3>
+          <p>تشكيلة كباب وشيش طاووق وريش، تقدم مع حمص كريمي وخبز تنور.</p>
+        </article>
+        <article class="menu-item">
+          <span class="price">29 ر.س</span>
+          <h3>فتوش الرمان</h3>
+          <p>خضار مقرمشة، دبس رمان، سماق، وخبز محمص بطعم خفيف ومنعش.</p>
+        </article>
+        <article class="menu-item">
+          <span class="price">24 ر.س</span>
+          <h3>كنافة فستق</h3>
+          <p>كنافة ساخنة بجبنة طرية، قطر عطري، وطبقة سخية من الفستق.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section story">
+      <div class="story-card">
+        <p class="eyebrow">حكايتنا</p>
+        <h2>نطبخ كما لو أن الضيف من أهل البيت.</h2>
+        <p>بدأت دار المذاق من مطبخ عائلي صغير، ثم كبرت الفكرة لتصبح مكانًا يجمع الناس حول أطباق صادقة، خدمة لطيفة، وأجواء عربية دافئة.</p>
+      </div>
+      <div class="hours-card">
+        <h3>ساعات العمل</h3>
+        <ul>
+          <li><span>السبت - الخميس</span><strong>12 ظهرًا - 12 ليلًا</strong></li>
+          <li><span>الجمعة</span><strong>2 عصرًا - 1 ليلًا</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div>
+        <p class="eyebrow">جاهزون لاستقبالك</p>
+        <h2>احجز طاولتك اليوم</h2>
+        <p>اتصل بنا أو أرسل رسالة واتساب، وسنجهز لك مكانًا مريحًا مع طبق ترحيبي من الدار.</p>
+      </div>
+      <a class="btn primary large" href="tel:+966500000000">اتصل الآن</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 مطعم دار المذاق. جميع الحقوق محفوظة.</p>
+    <p>شارع الضيافة، الرياض · 050 000 0000</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
